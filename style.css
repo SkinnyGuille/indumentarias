@@ -1,0 +1,206 @@
+/* Estilo para el cuerpo de la página */
+ .fondo{
+   width: 99%;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("cl3.png"); 
+ }
+
+
+
+/* Estilo para el encabezado */
+.header {
+   top: 0%;
+    background-color: #2984eb5e;
+    padding: 7px;
+    text-align: center;
+}
+.menu-logo {
+    display: flex;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 1100;
+   
+    width: 90px;
+    margin: 10px;
+}
+
+.contenedorlogo {
+    margin-bottom: 20px;
+}
+
+.nombredellogo {
+    font-size: 36px;
+    margin: 0;
+    color: white;
+}
+
+/* Estilo para la barra de navegación */
+
+
+/* Estilo para los títulos */
+h1, h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+
+}
+
+/* Estilo para los párrafos */
+p {
+  font-family: 'Poppins', sans-serif;
+    background-color: #00000029;
+    font-size: 25px;
+    text-align: center;
+    justify-content:left;
+    margin: 30px;
+    color:white;
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block;
+    margin:  auto;
+}
+.barra{
+ 
+    padding: 0;
+    background-color: rgb(9, 77, 116);
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.barra a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 20px;
+}
+.barra a:hover{
+    background-color: rgba(200, 137, 10, 0.649);
+}
+h3 {
+    margin: 30px;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    background-color: #00000035;
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+}
+a{
+ 
+  background-color: #6363635e;
+  font-size: 30px;
+  text-align: center;
+  justify-content:left;
+  margin: 30px;
+  color:white;
+  text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+
+
+}
+
+
+
+h4{
+    text-decoration: underline;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(243, 243, 243);
+    text-shadow: 5px 0px 5px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+  
+  }
+#datos-ingresados{
+  border: 1px solid #2b2b2b9f;
+  font-size: 30px;
+  text-align: center;
+  color: rgb(243, 243, 243);
+  text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+}
+ 
+section{
+   
+    display: flex;
+    width: 900px;
+    height: 500px;
+
+}
+section img{
+    width: 0px;
+    flex-grow: 10;
+    object-fit: cover;
+    transition: .5s ease;
+
+
+}
+section img:hover{
+    cursor: crosshair;
+    width: 100px;
+    filter:  contrast(120%);
+}
+.carousel-item{
+width: 90px;
+height: auto;
+
+}
+.container-p{
+    max-width: 900px;
+    margin: 50px  auto;
+    padding: 100px;
+    border-radius: 5px;
+    border: 1px solid #0742f4;
+      background-color: rgba(121, 72, 234, 0.201);
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+    justify-content: left;
+    margin: 5px 30px 30px; 
+  
+  }
+  p1{
+  
+    font-size: 30px;
+    text-align: center;
+    justify-content:left;
+    margin: 30px;
+    color:white;
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;  
+  
+  }
+  .contact-list {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+  }
+  
+  .contact-list li {
+    margin: 10px 0; /* Ajusta el espacio entre elementos de la lista según tus preferencias */
+  }
+  
+  .contact-list a {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    background-color: #2e2e2e81;
+    font-size: 20px;
+    text-align: left;
+    display: block; /* Hace que los enlaces ocupen todo el ancho del contenedor li */
+    padding: 10px; /* Ajusta el relleno según tus preferencias */
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000, 1px 0px 4px #000000;
+  }
+  
+  .contact-list a:hover {
+    color: rgb(255, 255, 255);
+  }
+ 
